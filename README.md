@@ -3,6 +3,8 @@ A simple software driver for displaying ASCII text on HCMS-2XXX Series 5x7 Dot M
 
 I found existing software for these displays to be difficult to locate, and the code I did locate was not as user friendly as I wanted, so I wrote my own implementation.
 
+![Example Displays Working](https://raw.githubusercontent.com/hshutan/HCMS-2XXX/master/hcms.jpg)
+
 Please follow the datasheet for wiring your displays. Some external components are required, like PNP transistors to drive the 5 column drivers.
 
 The following display models _should_ work with this code:
